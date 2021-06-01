@@ -8,7 +8,9 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "chart": "ng build --prod chart --single-bundle --output-hashing none"
+    "chart": "ng build --prod chart --single-bundle --output-hashing none",
+    "users": "ng build --prod users --single-bundle --output-hashing none"
+
   },
   "private": true,
   "dependencies": {
