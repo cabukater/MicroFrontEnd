@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'microApp';
+ constructor(){
+   const script = document.createElement('script');
+   script.src = 'http://localhost:8080/chart/main.js',
+   document.body.appendChild(script)
+ }
+  
 }
